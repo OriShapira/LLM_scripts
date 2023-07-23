@@ -1,7 +1,8 @@
 # LLM_scripts
+Scripts that might be useful for transformer-based large language models.
 
-## Yes/No Questions with logit probability
-This script allows entering prompt that are yes/no questions. The logit probability of the "yes" answer is returned.
+## Yes/No Questions with Logit Probability
+This script allows entering prompts that are yes/no questions. The logit probability of the "yes" answer is returned.
 The code should work for most tranformer language models on huggingface, but it was only tested here for Flan-T5.
 It is currently configured for GPU machinces.
 ```
